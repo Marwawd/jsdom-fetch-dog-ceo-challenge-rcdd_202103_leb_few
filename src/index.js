@@ -115,3 +115,9 @@ function  yaa(){
     });
 }
 fetchdogssss();
+
+
+var x = document.getElementById("breed-dropdown").selectedIndex;
+var y = document.getElementById("breed-dropdown").options;
+console.log(x)
+console.log(y)
