@@ -123,7 +123,7 @@ switch (x) {
   break;
   default: console.log("tada");
   break;
-})}
+})
 var y = document.getElementById("breed-dropdown").options;
 console.log(x)
 console.log(y)
