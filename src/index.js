@@ -110,7 +110,7 @@ case 1:{
             const ddd = document.getElementById("dog-breeds");
             for (const p in b.message) {
               console.log(p.startsWith("a"));
-              if(p.startsWith("b", 0)===true){
+              if(p.startsWith("b", 0)){
                 console.log(p)
             const l = document.createElement('li');
             l.innerHTML =p;
@@ -132,7 +132,7 @@ case 2:{
             const ddd = document.getElementById("dog-breeds");
             for (const p in b.message) {
               console.log(p.startsWith("a"));
-              if(p.startsWith("c", 0)===true){
+              if(p.startsWith("c", 0)){
                 console.log(p)
             const l = document.createElement('li');
             l.innerHTML =p;
@@ -154,7 +154,7 @@ case 3:{
             const ddd = document.getElementById("dog-breeds");
             for (const p in b.message) {
               console.log(p.startsWith("a"));
-              if(p.startsWith("d", 0)===true){
+              if(p.startsWith("d", 0)){
                 console.log(p)
             const l = document.createElement('li');
             l.innerHTML =p;
