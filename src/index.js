@@ -129,7 +129,7 @@ fetchdogssf();
     console.log('Mangoes and papayas are $2.79 a pound.');
     // expected output: "Mangoes and papayas are $2.79 a pound."
     break;
-    case '2':
+    case '3':
       console.log('Mangoes and papayas are $2.79 a pound.');
       // expected output: "Mangoes and papayas are $2.79 a pound."
       break;
