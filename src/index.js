@@ -83,7 +83,7 @@ switch (expr) {
   case '0':
     console.log('Oranges are $0.59 a pound.');
 
-function fetchdogss(){
+function fetchdogssf(){
   fetch('https://dog.ceo/api/breeds/list/all')
   .then(resp => resp.json())
   .then(datab => renderul(datab));
@@ -112,7 +112,7 @@ function renderul(b) {
   }}
   changecolor(b);
 }
-fetchdogss();*/
+fetchdogssf();*/
 
 
     break;
