@@ -88,7 +88,7 @@ case 0:{
             const ddd = document.getElementById("dog-breeds");
             for (const p in b.message) {
               console.log(p.startsWith("a"));
-              if(p.startsWith("a", 0)===true){
+              if(p.startsWith("a", 0)){
                 console.log(p)
             const l = document.createElement('li');
             l.innerHTML =p;
