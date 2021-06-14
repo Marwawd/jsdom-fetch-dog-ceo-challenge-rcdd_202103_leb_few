@@ -112,7 +112,7 @@ function renderul(b) {
   }}
   changecolor(b);
 }
-fetchdogssf();*/
+fetchdogssf();
 
 
     break;
