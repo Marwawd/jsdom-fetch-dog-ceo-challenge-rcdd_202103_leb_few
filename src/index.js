@@ -79,8 +79,8 @@ fetchdogss();
 function jsFunction(value)
 {
   const expr = document.getElementById("breed-dropdown").selectedIndex;
-  const l = document.createElement('li');
-  l.innerHTML =" ";
+const ddd = document.getElementById("dog-breeds");
+  ddd.innerHTML =" ";
 switch (expr) {
   case '0':{
     console.log('Oranges are $0.59 a pound.');
