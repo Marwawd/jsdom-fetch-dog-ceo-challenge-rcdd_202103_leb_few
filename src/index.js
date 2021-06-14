@@ -96,7 +96,7 @@ const ddd = document.getElementById("dog-breeds");
         function fetchdogssf(){
           fetch('https://dog.ceo/api/breeds/list/all')
           .then(resp => resp.json())
-          .then(datab => renderujl(datab));
+          .then(datab => console.log(datab));
         }
         fetchdogssf();
   }}
