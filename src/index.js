@@ -83,7 +83,7 @@ const ddd = document.getElementById("dog-breeds");
   ddd.innerHTML =" ";
 switch(expr){
 
-case '0':{
+case 0:{
     function renderujl(b) {
             const ddd = document.getElementById("dog-breeds");
             for (const p in b.message) {
@@ -105,62 +105,70 @@ case '0':{
   }
 
 break;
+case 1:{
+    function renderujl(b) {
+            const ddd = document.getElementById("dog-breeds");
+            for (const p in b.message) {
+              console.log(p.startsWith("a"));
+              if(p.startsWith("b", 0)===true){
+                console.log(p)
+            const l = document.createElement('li');
+            l.innerHTML =p;
+            ddd.appendChild(l);
+          }}
+          changecolor(b);
+        }
+        function fetchdogssf(){
+          fetch('https://dog.ceo/api/breeds/list/all')
+          .then(resp => resp.json())
+          .then(datab => renderujl(datab));
+        }
+        fetchdogssf();
+  }
+
+break;
+case 2:{
+    function renderujl(b) {
+            const ddd = document.getElementById("dog-breeds");
+            for (const p in b.message) {
+              console.log(p.startsWith("a"));
+              if(p.startsWith("c", 0)===true){
+                console.log(p)
+            const l = document.createElement('li');
+            l.innerHTML =p;
+            ddd.appendChild(l);
+          }}
+          changecolor(b);
+        }
+        function fetchdogssf(){
+          fetch('https://dog.ceo/api/breeds/list/all')
+          .then(resp => resp.json())
+          .then(datab => renderujl(datab));
+        }
+        fetchdogssf();
+  }
+
+break;
+case 3:{
+    function renderujl(b) {
+            const ddd = document.getElementById("dog-breeds");
+            for (const p in b.message) {
+              console.log(p.startsWith("a"));
+              if(p.startsWith("d", 0)===true){
+                console.log(p)
+            const l = document.createElement('li');
+            l.innerHTML =p;
+            ddd.appendChild(l);
+          }}
+          changecolor(b);
+        }
+        function fetchdogssf(){
+          fetch('https://dog.ceo/api/breeds/list/all')
+          .then(resp => resp.json())
+          .then(datab => renderujl(datab));
+        }
+        fetchdogssf();
+  }
+
+break;
 default:break;}}
-// switch (expr) {
-//   case '0':{
-//     console.log('Oranges are $0.59 a pound.');
-//     function renderujl(b) {
-//         const ddd = document.getElementById("dog-breeds");
-//         for (const p in b.message) {
-//           if(p.startWith("a")){
-//             console.log(p)
-//         const l = document.createElement('li');
-//         l.innerHTML =p;
-//         ddd.appendChild(l);
-//       }}
-//       changecolor(b);
-//     }
-// function fetchdogssf(){
-//   fetch('https://dog.ceo/api/breeds/list/all')
-//   .then(resp => resp.json())
-//   .then(datab => renderujl(datab));
-// }
-//
-//
-// fetchdogssf();
-// }
-//
-//     break;
-//   case '1':{
-//   function fetchdogssf(){
-//     fetch('https://dog.ceo/api/breeds/list/all')
-//     .then(resp => resp.json())
-//     .then(datab => renderujl(datab));
-//   }
-//
-//   function renderujl(b) {
-//       const ddd = document.getElementById("dog-breeds");
-//       for (const p in b.message) {
-//         if(p.startsWith("b")){
-//               console.log("hola")
-//       const l = document.createElement('li');
-//       l.innerHTML =p;
-//       ddd.appendChild(l);
-//     }}
-//     changecolor(b);
-//   }
-//   fetchdogssf();
-// }
-//   case '2':
-//     console.log('Mangoes and papayas are $2.79 a pound.');
-//     // expected output: "Mangoes and papayas are $2.79 a pound."
-//     break;
-//     case '3':
-//       console.log('Mangoes and papayas are $2.79 a pound.');
-//       // expected output: "Mangoes and papayas are $2.79 a pound."
-//       break;
-//   default:
-//     console.log(`Sorry, we are out of ${expr}.`);
-// }
-//
-// }
