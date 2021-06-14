@@ -80,4 +80,3 @@ function jsFunction(value)
 {
     alert(value);
 }
-
