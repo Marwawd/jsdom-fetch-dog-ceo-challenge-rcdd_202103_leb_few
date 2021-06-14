@@ -85,6 +85,7 @@ const ddd = document.getElementById("dog-breeds");
     function renderujl(b) {
             const ddd = document.getElementById("dog-breeds");
             for (const p in b.message) {
+              console.log(p.startsWith("a"));
               if(p.startWith("a")){
                 console.log(p)
             const l = document.createElement('li');
@@ -96,7 +97,7 @@ const ddd = document.getElementById("dog-breeds");
         function fetchdogssf(){
           fetch('https://dog.ceo/api/breeds/list/all')
           .then(resp => resp.json())
-          .then(datab => console.log(datab));
+          .then(datab => renderujl(datab));
         }
         fetchdogssf();
   }}
