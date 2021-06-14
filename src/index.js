@@ -82,7 +82,7 @@ function jsFunction(value)
 const ddd = document.getElementById("dog-breeds");
   ddd.innerHTML =" ";
 switch(expr){
-  
+
 case '0':{
     function renderujl(b) {
             const ddd = document.getElementById("dog-breeds");
