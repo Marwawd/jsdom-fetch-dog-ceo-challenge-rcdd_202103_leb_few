@@ -88,6 +88,7 @@ switch (expr) {
         const ddd = document.getElementById("dog-breeds");
         for (const p in b.message) {
           if(p.startWith("a")){
+            console.log(p)
         const l = document.createElement('li');
         l.innerHTML =p;
         ddd.appendChild(l);
