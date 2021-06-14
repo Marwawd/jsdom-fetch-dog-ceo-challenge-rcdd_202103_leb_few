@@ -90,7 +90,7 @@ switch (expr) {
           if(p.startWith("a")){
             console.log(p)
         const l = document.createElement('li');
-        l.innerHTML +=p;
+        l.innerHTML =p;
         ddd.appendChild(l);
       }}
       changecolor(b);
@@ -137,5 +137,5 @@ fetchdogssf();
   default:
     console.log(`Sorry, we are out of ${expr}.`);
 }
-    alert( document.getElementById("breed-dropdown").selectedIndex);
+
 }
