@@ -104,6 +104,24 @@ fetchdogssf();
 
     break;
   case '1':
+  function fetchdogssf(){
+    fetch('https://dog.ceo/api/breeds/list/all')
+    .then(resp => resp.json())
+    .then(datab => renderujl(datab));
+  }
+
+  function renderujl(b) {
+      const ddd = document.getElementById("dog-breeds");
+      for (const p in b.message) {
+        if(p.startWith("b")){
+      const l = document.createElement('li');
+      l.innerHTML =p;
+      ddd.appendChild(l);
+    }}
+    changecolor(b);
+  }
+  fetchdogssf();
+
   case '2':
     console.log('Mangoes and papayas are $2.79 a pound.');
     // expected output: "Mangoes and papayas are $2.79 a pound."
