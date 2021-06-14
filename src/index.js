@@ -88,20 +88,7 @@ function fetchdogssf(){
   .then(resp => resp.json())
   .then(datab => renderul(datab));
 }
-function changecolor(b) {
 
-  let oo=document.querySelectorAll("li");
-      console.log(oo.length);
-
-   for (let ino in oo) {
-  //document.addEventListener("DOMContentLoaded", function() {
-
-  oo[ino].addEventListener("click", function() {
-      //  console.log("b");
-
-   oo[ino].style.color= "red";
-
- });}}
 function renderul(b) {
     const ddd = document.getElementById("dog-breeds");
     for (const p in b.message) {
