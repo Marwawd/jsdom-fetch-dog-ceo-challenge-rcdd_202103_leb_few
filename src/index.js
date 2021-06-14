@@ -119,11 +119,11 @@ const ddd = document.getElementById("dog-breeds");
 //   .then(resp => resp.json())
 //   .then(datab => renderujl(datab));
 // }
-// 
-// 
+//
+//
 // fetchdogssf();
 // }
-// 
+//
 //     break;
 //   case '1':{
 //   function fetchdogssf(){
@@ -131,7 +131,7 @@ const ddd = document.getElementById("dog-breeds");
 //     .then(resp => resp.json())
 //     .then(datab => renderujl(datab));
 //   }
-// 
+//
 //   function renderujl(b) {
 //       const ddd = document.getElementById("dog-breeds");
 //       for (const p in b.message) {
@@ -156,5 +156,5 @@ const ddd = document.getElementById("dog-breeds");
 //   default:
 //     console.log(`Sorry, we are out of ${expr}.`);
 // }
-// 
+//
 // }
