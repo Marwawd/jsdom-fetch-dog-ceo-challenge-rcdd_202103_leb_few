@@ -81,7 +81,9 @@ function jsFunction(value)
   const expr = document.getElementById("breed-dropdown").selectedIndex;
 const ddd = document.getElementById("dog-breeds");
   ddd.innerHTML =" ";
-  if(expr===0) {
+switch(expr){
+  
+case '0':{
     function renderujl(b) {
             const ddd = document.getElementById("dog-breeds");
             for (const p in b.message) {
@@ -100,7 +102,10 @@ const ddd = document.getElementById("dog-breeds");
           .then(datab => renderujl(datab));
         }
         fetchdogssf();
-  }}
+  }
+
+break:
+default:break;}}
 // switch (expr) {
 //   case '0':{
 //     console.log('Oranges are $0.59 a pound.');
