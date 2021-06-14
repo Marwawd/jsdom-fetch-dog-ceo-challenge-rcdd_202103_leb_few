@@ -84,23 +84,23 @@ const ddd = document.getElementById("dog-breeds");
 switch (expr) {
   case '0':{
     console.log('Oranges are $0.59 a pound.');
-
+    function renderujl(b) {
+        const ddd = document.getElementById("dog-breeds");
+        for (const p in b.message) {
+          if(p.startWith("a")){
+        const l = document.createElement('li');
+        l.innerHTML =p;
+        ddd.appendChild(l);
+      }}
+      changecolor(b);
+    }
 function fetchdogssf(){
   fetch('https://dog.ceo/api/breeds/list/all')
   .then(resp => resp.json())
   .then(datab => renderujl(datab));
 }
 
-function renderujl(b) {
-    const ddd = document.getElementById("dog-breeds");
-    for (const p in b.message) {
-      if(p.startWith("a")){
-    const l = document.createElement('li');
-    l.innerHTML =p;
-    ddd.appendChild(l);
-  }}
-  changecolor(b);
-}
+
 fetchdogssf();
 }
 
