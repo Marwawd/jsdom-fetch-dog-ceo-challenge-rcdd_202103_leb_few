@@ -90,7 +90,7 @@ switch (expr) {
           if(p.startWith("a")){
             console.log(p)
         const l = document.createElement('li');
-        l.innerHTML =p;
+        l.innerHTML +=p;
         ddd.appendChild(l);
       }}
       changecolor(b);
