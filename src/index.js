@@ -104,7 +104,7 @@ case '0':{
         fetchdogssf();
   }
 
-break:
+break;
 default:break;}}
 // switch (expr) {
 //   case '0':{
