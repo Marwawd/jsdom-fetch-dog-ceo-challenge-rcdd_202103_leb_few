@@ -79,5 +79,5 @@ fetchdogss();
 function jsFunction(value)
 {
 
-    alert( document.getElementById("breed-dropdown").selectedIndex;);
+    alert( document.getElementById("breed-dropdown").selectedIndex);
 }
