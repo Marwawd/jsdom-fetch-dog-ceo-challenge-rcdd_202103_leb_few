@@ -78,6 +78,22 @@ fetchdogss();
 
 function jsFunction(value)
 {
-
+  const expr = document.getElementById("breed-dropdown").selectedIndex;
+switch (expr) {
+  case '0':
+    console.log('Oranges are $0.59 a pound.');
+    break;
+  case '1':
+  case '2':
+    console.log('Mangoes and papayas are $2.79 a pound.');
+    // expected output: "Mangoes and papayas are $2.79 a pound."
+    break;
+    case '2':
+      console.log('Mangoes and papayas are $2.79 a pound.');
+      // expected output: "Mangoes and papayas are $2.79 a pound."
+      break;
+  default:
+    console.log(`Sorry, we are out of ${expr}.`);
+}
     alert( document.getElementById("breed-dropdown").selectedIndex);
 }
