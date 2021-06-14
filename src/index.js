@@ -80,7 +80,7 @@ function jsFunction(value)
 {
   const expr = document.getElementById("breed-dropdown").selectedIndex;
   const l = document.createElement('li');
-  l.innerHTML ="";
+  l.innerHTML =" ";
 switch (expr) {
   case '0':{
     console.log('Oranges are $0.59 a pound.');
