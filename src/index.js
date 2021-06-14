@@ -124,6 +124,11 @@ switch (x) {
   default: console.log("tada");
   break;
 }})
+
+function jsFunction(value)
+{
+    alert(value);
+}
 var y = document.getElementById("breed-dropdown").options;
 console.log(x)
 console.log(y)
