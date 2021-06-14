@@ -118,7 +118,7 @@ fetchdogssss();
 let g= document.getElementById("breed-dropdown")
 g.addEventListener("click", function (){
 let x = g.selectedIndex;
-switch x {
+switch (x) {
   case a: console.log("hola");
   break;
   default: console.log("tada");
