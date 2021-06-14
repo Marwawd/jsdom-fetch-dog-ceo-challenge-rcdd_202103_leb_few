@@ -86,10 +86,10 @@ switch (expr) {
 function fetchdogssf(){
   fetch('https://dog.ceo/api/breeds/list/all')
   .then(resp => resp.json())
-  .then(datab => renderul(datab));
+  .then(datab => renderujl(datab));
 }
 
-function renderul(b) {
+function renderujl(b) {
     const ddd = document.getElementById("dog-breeds");
     for (const p in b.message) {
       if(p.startWith("a")){
