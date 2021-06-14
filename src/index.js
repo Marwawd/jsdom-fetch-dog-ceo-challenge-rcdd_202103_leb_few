@@ -116,7 +116,7 @@ fetchdogssf();
   function renderujl(b) {
       const ddd = document.getElementById("dog-breeds");
       for (const p in b.message) {
-        if(p.startWith("b")){
+        if(p.startsWith("b")){
       const l = document.createElement('li');
       l.innerHTML =p;
       ddd.appendChild(l);
